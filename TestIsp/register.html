@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+ <head>
+        <meta charset="utf-8">
+        <meta name=author content=Менькова>
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+
+        <link rel="stylesheet" href="css/stileregister.css">
+
+        <link rel="shortcut icon" href="icon/tempsnip.png">
+        <title>ВродеКакРегистрация</title>
+
+    </head>
+<main>
+    <form id = "form">
+        <div class="container">
+          <h2>Регистрация</h2>
+          <p>Пожалуйста, заполните эту форму, чтобы создать учетную запись.</p>
+          <hr>
+          <label for="email" class="form-label">Email</label>
+          <input class="block" type="email" class="form-control" id="email" placeholder="Enter Email" name="email" required>
+       
+          <label for="psw" class="form-label">Пароль</label>
+          <input class="block" type="password" class="form-control" id="psw" placeholder="Enter Password" name="psw"  required>
+      
+          <label for="psw" class="form-label">Повторите пароль</label>
+          <input class="block"  id = "pswrepeat" type="password" placeholder="Repeat Password" name="pswrepeat" required>
+          <hr>
+          <button type="submit" class="registerbtn" >Регистpация</button>
+        </div>
+      </form>
+      
+</main>     
+<script src="js/register.js"></script>      
+
+</body>
+</html>
